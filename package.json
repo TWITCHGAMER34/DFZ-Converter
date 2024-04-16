@@ -4,6 +4,7 @@
   "description": "Currency converter in HTML, CSS, JS and Electron",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Zoltan Martin Nagy, Deldar Rachid, Frend Al-ani",
