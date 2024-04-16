@@ -6,11 +6,12 @@ function createWindow () {
         height: 600,
         webPreferences: {
             nodeIntegration: true,
-            contextIsolation: false, // add this line
+            contextIsolation: false,
         }
     })
 
     win.loadFile('index.html')
+    win.setMenuBarVisibility(false)
 }
 
 app.whenReady().then(createWindow)
