@@ -6,10 +6,38 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 <h1>Hello, Electron!</h1>
-<div id="console-log"></div>
+<pre id="console-log"></pre>
+
+<label for="currency-type">
+    Currency type:
+</label>
+<select name="currency-type" id="currency-type">
+    <option value="normal">
+        Normal Currencies
+    </option>
+    <option value="crypto">
+        Cryptocurrencies
+    </option>
+</select>
+
+<div id="currency-from-crypto">
+    <label for="currency-from-crypto-select">
+        Currency from:
+    </label>
+    <select name="currency-from-crypto" id="currency-from-crypto-select"></select>
+</div>
+<div id="currency-from-normal">
+    <label for="currency-from-normal-select">
+        Currency from:
+    </label>
+    <select name="currency-from-normal" id="currency-from-normal-select"></select>
+</div>
+
+
 <script>
     require('./renderer.js');
 </script>
