@@ -11,3 +11,7 @@ body {
 label {
     margin-top: 10px;
 }
+
+#currency-type{
+    max-width: 40vw;
+}

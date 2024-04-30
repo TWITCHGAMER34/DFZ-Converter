@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Bitcoin",
+    "currency_code": "btc"
+  },
+  {
+    "name": "Ethereum",
+    "currency_code": "eth"
+  },
+  {
+    "name": "Tether",
+    "currency_code": "usdt"
+  },
+  {
+    "name": "BNB",
+    "currency_code": "bnb"
+  },
+  {
+    "name": "Solana",
+    "currency_code": "sol"
+  },
+  {
+    "name": "USDC",
+    "currency_code": "usdc"
+  },
+  {
+    "name": "XRP",
+    "currency_code": "xrp"
+  },
+  {
+    "name": "Lido Staked Ether",
+    "currency_code": "steth"
+  },
+  {
+    "name": "Dogecoin",
+    "currency_code": "doge"
+  },
+  {
+    "name": "Toncoin",
+    "currency_code": "ton"
+  },
+  {
+    "name": "Cardano",
+    "currency_code": "ada"
+  },
+  {
+    "name": "Shiba Inu",
+    "currency_code": "shib"
+  },
+  {
+    "name": "Avalanche",
+    "currency_code": "avax"
+  },
+  {
+    "name": "Wrapped Bitcoin",
+    "currency_code": "wbtc"
+  },
+  {
+    "name": "Bitcoin Cash",
+    "currency_code": "bch"
+  },
+  {
+    "name": "Polkadot",
+    "currency_code": "dot"
+  },
+  {
+    "name": "TRON",
+    "currency_code": "trx"
+  },
+  {
+    "name": "Chainlink",
+    "currency_code": "link"
+  },
+  {
+    "name": "NEAR Protocol",
+    "currency_code": "near"
+  },
+  {
+    "name": "Internet Computer",
+    "currency_code": "icp"
+  },
+  {
+    "name": "Polygon",
+    "currency_code": "matic"
+  },
+  {
+    "name": "Litecoin",
+    "currency_code": "ltc"
+  },
+  {
+    "name": "Uniswap",
+    "currency_code": "uni"
+  },
+  {
+    "name": "LEO Token",
+    "currency_code": "leo"
+  },
+  {
+    "name": "Dai",
+    "currency_code": "dai"
+  },
+  {
+    "name": "Stacks",
+    "currency_code": "stx"
+  },
+  {
+    "name": "Aptos",
+    "currency_code": "apt"
+  },
+  {
+    "name": "Ethereum Classic",
+    "currency_code": "etc"
+  },
+  {
+    "name": "Mantle",
+    "currency_code": "mnt"
+  },
+  {
+    "name": "First Digital USD",
+    "currency_code": "fdusd"
+  },
+  {
+    "name": "Filecoin",
+    "currency_code": "fil"
+  },
+  {
+    "name": "Render",
+    "currency_code": "rndr"
+  },
+  {
+    "name": "Cronos",
+    "currency_code": "cro"
+  },
+  {
+    "name": "Immutable",
+    "currency_code": "imx"
+  },
+  {
+    "name": "Cosmos Hub",
+    "currency_code": "atom"
+  },
+  {
+    "name": "Stellar",
+    "currency_code": "xlm"
+  },
+  {
+    "name": "Bittensor",
+    "currency_code": "tao"
+  },
+  {
+    "name": "OKB",
+    "currency_code": "okb"
+  },
+  {
+    "name": "Renzo Restaked ETH",
+    "currency_code": "ezeth"
+  },
+  {
+    "name": "Arbitrum",
+    "currency_code": "arb"
+  },
+  {
+    "name": "Hedera",
+    "currency_code": "hbar"
+  },
+  {
+    "name": "XT.com",
+    "currency_code": "xt"
+  },
+  {
+    "name": "VeChain",
+    "currency_code": "vet"
+  },
+  {
+    "name": "Kaspa",
+    "currency_code": "kas"
+  },
+  {
+    "name": "Pepe",
+    "currency_code": "pepe"
+  },
+  {
+    "name": "dogwifhat",
+    "currency_code": "wif"
+  },
+  {
+    "name": "The Graph",
+    "currency_code": "grt"
+  },
+  {
+    "name": "Maker",
+    "currency_code": "mkr"
+  },
+  {
+    "name": "Optimism",
+    "currency_code": "op"
+  },
+  {
+    "name": "Fetch.ai",
+    "currency_code": "fet"
+  },
+  {
+    "name": "Injective",
+    "currency_code": "inj"
+  },
+  {
+    "name": "Wrapped eETH",
+    "currency_code": "weeth"
+  },
+  {
+    "name": "Ethena USDe",
+    "currency_code": "usde"
+  },
+  {
+    "name": "Theta Network",
+    "currency_code": "theta"
+  },
+  {
+    "name": "Arweave",
+    "currency_code": "ar"
+  },
+  {
+    "name": "Core",
+    "currency_code": "core"
+  },
+  {
+    "name": "Monero",
+    "currency_code": "xmr"
+  },
+  {
+    "name": "Fantom",
+    "currency_code": "ftm"
+  },
+  {
+    "name": "Celestia",
+    "currency_code": "tia"
+  },
+  {
+    "name": "Lido DAO",
+    "currency_code": "ldo"
+  },
+  {
+    "name": "THORChain",
+    "currency_code": "rune"
+  },
+  {
+    "name": "Sei",
+    "currency_code": "sei"
+  },
+  {
+    "name": "Rocket Pool ETH",
+    "currency_code": "reth"
+  },
+  {
+    "name": "Bitget Token",
+    "currency_code": "bgb"
+  },
+  {
+    "name": "Zebec Protocol",
+    "currency_code": "zbc"
+  },
+  {
+    "name": "Sui",
+    "currency_code": "sui"
+  },
+  {
+    "name": "FLOKI",
+    "currency_code": "floki"
+  },
+  {
+    "name": "GALA",
+    "currency_code": "gala"
+  },
+  {
+    "name": "Beam",
+    "currency_code": "beam"
+  },
+  {
+    "name": "Mantle Staked Ether",
+    "currency_code": "meth"
+  },
+  {
+    "name": "Algorand",
+    "currency_code": "algo"
+  },
+  {
+    "name": "Quant",
+    "currency_code": "qnt"
+  },
+  {
+    "name": "Jupiter",
+    "currency_code": "jup"
+  },
+  {
+    "name": "WhiteBIT Coin",
+    "currency_code": "wbt"
+  },
+  {
+    "name": "Flow",
+    "currency_code": "flow"
+  },
+  {
+    "name": "Akash Network",
+    "currency_code": "akt"
+  },
+  {
+    "name": "Ethena",
+    "currency_code": "ena"
+  },
+  {
+    "name": "Bitcoin SV",
+    "currency_code": "bsv"
+  },
+  {
+    "name": "Aave",
+    "currency_code": "aave"
+  },
+  {
+    "name": "NEO",
+    "currency_code": "neo"
+  },
+  {
+    "name": "Bonk",
+    "currency_code": "bonk"
+  },
+  {
+    "name": "SingularityNET",
+    "currency_code": "agix"
+  },
+  {
+    "name": "BitTorrent",
+    "currency_code": "btt"
+  },
+  {
+    "name": "Flare",
+    "currency_code": "flr"
+  },
+  {
+    "name": "ether.fi Staked ETH",
+    "currency_code": "eeth"
+  },
+  {
+    "name": "Safe",
+    "currency_code": "safe"
+  },
+  {
+    "name": "MultiversX",
+    "currency_code": "egld"
+  },
+  {
+    "name": "dYdX",
+    "currency_code": "dydx"
+  },
+  {
+    "name": "Ribbon Finance",
+    "currency_code": "rbn"
+  },
+  {
+    "name": "Ondo",
+    "currency_code": "ondo"
+  },
+  {
+    "name": "NetMind Token",
+    "currency_code": "nmt"
+  },
+  {
+    "name": "Axie Infinity",
+    "currency_code": "axs"
+  },
+  {
+    "name": "The Sandbox",
+    "currency_code": "sand"
+  },
+  {
+    "name": "eCash",
+    "currency_code": "xec"
+  },
+  {
+    "name": "Wormhole",
+    "currency_code": "w"
+  },
+  {
+    "name": "Worldcoin",
+    "currency_code": "wld"
+  },
+  {
+    "name": "Ronin",
+    "currency_code": "ron"
+  },
+  {
+    "name": "Tokenize Xchange",
+    "currency_code": "tkx"
+  },
+  {
+    "name": "Chiliz",
+    "currency_code": "chz"
+  },
+  {
+    "name": "Tezos",
+    "currency_code": "xtz"
+  }
+]

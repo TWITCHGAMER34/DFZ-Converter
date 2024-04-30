@@ -11,7 +11,6 @@
 </head>
 <body>
 <h1>Hello, Electron!</h1>
-<pre id="console-log"></pre>
 
 <label for="currency-type">
     Currency type:
@@ -29,24 +28,35 @@
     <label for="currency-from-crypto-select">
         Currency from:
     </label>
+    <br>
     <select name="currency-from-crypto" id="currency-from-crypto-select"></select>
 </div>
+
 <div id="currency-from-normal">
     <label for="currency-from-normal-select">
         Currency from:
     </label>
+    <br>
     <select name="currency-from-normal" id="currency-from-normal-select"></select>
+</div>
+
+<div id="currency-to-normal">
+    <label for="currency-to-normal-select">
+        Currency to:
+    </label>
+    <select name="currency-to-normal" id="currency-to-normal-select"></select>
+</div>
+
+<div id="currency-to-crypto">
+    <label for="currency-to-crypto-select">
+        Currency to:
+    </label>
+    <select name="currency-to-crypto" id="currency-to-crypto-select"></select>
 </div>
 
 
 <script>
     require('./renderer.js');
 </script>
-    <label for="currency">Choose a currency:</label>
-    <select name="currency" id="currency">
-        <option value="usd">USD</option>
-        <option value="eur">EUR</option>
-        <option value="gbp">GBP</option>
-    </select>
 </body>
 </html>
