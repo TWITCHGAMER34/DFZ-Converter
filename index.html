@@ -22,6 +22,9 @@
     <option value="crypto">
         Cryptocurrencies
     </option>
+    <option value="all">
+        All currencies
+    </option>
 </select>
 
 <div id="currency-from-crypto">
@@ -40,6 +43,14 @@
     <select name="currency-from-normal" id="currency-from-normal-select"></select>
 </div>
 
+<div id="currency-from-all">
+    <label for="currency-from-all-select">
+        Currency from:
+    </label>
+    <br>
+    <select name="currency-from-all" id="currency-from-all-select"></select>
+</div>
+
 <div id="currency-to-normal">
     <label for="currency-to-normal-select">
         Currency to:
@@ -54,9 +65,22 @@
     <select name="currency-to-crypto" id="currency-to-crypto-select"></select>
 </div>
 
-<input type="number">
+<div id="currency-to-all">
+    <label for="currency-to-all-select">
+        Currency to:
+    </label>
+    <select name="currency-to-all" id="currency-to-all-select"></select>
+</div>
+
+<label>
+    Amount:
+    <br>
+    <input id="amount" value="input_amount" type="number">
+</label>
 <button id="convert-button">Convert</button>
-<div id="result"></div>
+<div id="result">
+
+</div>
 
 
 <script>
