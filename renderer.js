@@ -53,11 +53,22 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 convertButton.addEventListener("click", async () => {
-    const from = selectedType === "normal" ? currencyFromNormalSelect.value : selectedType === "all" ? currencyFromAllSelect.value : currencyFromCryptoSelect.value;
-    const to = selectedType === "normal" ? currencyToNormalSelect.value : selectedType === "all" ? currencyToAllSelect.value : currencyToCryptoSelect.value;
+    let from, to;
+
+    if (selectedType === "normal") {
+        from = currencyFromNormalSelect.value;
+        to = currencyToNormalSelect.value;
+    } else if (selectedType === "all") {
+        from = currencyFromAllSelect.value;
+        to = currencyToAllSelect.value;
+    } else {
+        from = currencyFromCryptoSelect.value;
+        to = currencyToCryptoSelect.value;
+    }
+
     const amountValue = amount.value;
     const money = await exchangeCurrency(from, to, amountValue);
-    result.textContent = `${amountValue} ${from} = ${money.toFixed(1)} ${to}`;
+    result.textContent = ${amountValue} ${from} = ${money.toFixed(1)} ${to};
 })
 
 function applyCurrencyType() {
