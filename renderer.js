@@ -68,7 +68,7 @@ convertButton.addEventListener("click", async () => {
 
     const amountValue = amount.value;
     const money = await exchangeCurrency(from, to, amountValue);
-    result.textContent = ${amountValue} ${from} = ${money.toFixed(1)} ${to};
+    result.textContent = `${amountValue} ${from} = ${money.toFixed(1)} ${to}`;
 })
 
 function applyCurrencyType() {
