@@ -45,12 +45,8 @@ input, select {
     background: #dcdcdc;
     border: none;
     font-size: 15px;
-}
-
-select {
     text-align: center;
 }
-
 svg {
     color: #dcdcdc;
 }

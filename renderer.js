@@ -1,7 +1,9 @@
+// Import required modules and files
 const crypto = require('./lib/crypto.json');
 const country = require('./lib/country-by-currency-code.json');
 const {exchangeCurrency} = require("./exchangeCurrency");
 
+// Get DOM elements
 const currencyFromCrypto = document.getElementById("currency-from-crypto");
 const currencyFromCryptoSelect = document.getElementById("currency-from-crypto-select");
 const currencyFromNormal = document.getElementById("currency-from-normal");
@@ -18,16 +20,17 @@ const convertButton = document.getElementById("convert-button");
 const amount = document.getElementById("amount");
 const result = document.getElementById("result");
 
+// Initialize currencies object
 const currencies = {
     crypto: {name: "Cryptocurrencies", data: []},
     normal: {name: "Normal Currencies", data: []}
 }
 
+// Set the default currency type
 let selectedType = "normal"
 
-
+// Populate the select elements with the currency codes from the JSON files
 window.addEventListener('DOMContentLoaded', () => {
-
     for (const item of crypto) {
         const el = document.createElement("option");
         el.textContent = item.name || item.currency_code;
@@ -52,6 +55,7 @@ window.addEventListener('DOMContentLoaded', () => {
     applyCurrencyType();
 });
 
+// Add event listener to the convert button
 convertButton.addEventListener("click", async () => {
     let from, to;
 
@@ -71,8 +75,16 @@ convertButton.addEventListener("click", async () => {
     result.textContent = `${amountValue} ${from} = ${money.toFixed(1)} ${to}`;
 })
 
+/**
+ * This function applies the selected currency type.
+ */
 function applyCurrencyType() {
-    switch (selectedType) {
+    /*
+    * Hide and show the currency conversion elements
+    * based on the selected currency type
+    * */
+    switch (selectedType) { // More advanced if-statement
+        // Hide and show the currency conversion elements based on the selected currency type
         case "normal":
             currencyFromNormal.style.display = "block";
             currencyFromCrypto.style.display = "none";
@@ -100,6 +112,7 @@ function applyCurrencyType() {
     }
 }
 
+// Add event listener to the currency type select element
 document.getElementById("currency-type")
     .addEventListener("change", (e) => {
         selectedType = e.target.value;
